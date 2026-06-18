@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="108" height="132" viewBox="0 0 108 132" role="img">
+  <title>Buyers Documentation</title>
+  <rect x="16" y="8" width="108" height="132" rx="10" fill="#00838F" opacity="0.5"/>
+  <rect x="8" y="4" width="108" height="132" rx="10" fill="#00BCD4" opacity="0.7"/>
+  <rect x="0" y="0" width="108" height="132" rx="10" fill="#FF6F00"/>
+  <path d="M78 0 L108 30 L78 30 Z" fill="#1a1a2e" opacity="0.35"/>
+  <rect x="10" y="10" width="88" height="112" rx="6" fill="#1a1a2e"/>
+  <text x="42" y="88" font-family="monospace" font-size="72" font-weight="800" fill="#FF6F00">B</text>
+  <rect x="62" y="82" width="38" height="38" rx="6" fill="#00BCD4"/>
+  <text x="81" y="106" text-anchor="middle" font-family="monospace" font-size="18" font-weight="700" fill="#1a1a2e">$</text>
+</svg>

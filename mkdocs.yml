@@ -1,8 +1,8 @@
 site_name: Buyers Documentation
 theme:
   name: material
-  logo: img/logo.png
-  favicon: img/logo.png
+  logo: img/logo.svg
+  favicon: img/logo.svg
   font:
     text: JetBrains Mono
     code: JetBrains Mono
@@ -41,7 +41,10 @@ plugins:
 
 nav:
   - Главная: index.md
-  - Как устроены кампании в AIO: aio/campaign-desc.md
+  - Кампании в AIO: 
+      - Как попасть в кампанию и что внутри: aio/campaign-desc.md
+      - Как сгенерировать ссылку для залива: aio/how-to-generate-link.md
+  - Регламенты для задач: aio/regulations.md
   # - Добавление новой кампании: aio/new-campaign.md
   # - Добавление нового вайта: aio/how-to-add-white.md
   # - AIO (Crypto):
