@@ -7,7 +7,7 @@
       
       
       
-        <link rel="next" href="aio/campaign-desc/">
+        <link rel="next" href="aio/campaigns/campaign-desc/">
       
       
         
@@ -208,7 +208,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="aio/campaign-desc/" class="md-tabs__link">
+        <a href="aio/campaigns/campaign-desc/" class="md-tabs__link">
           
   
   
@@ -226,7 +226,7 @@
   
   
     <li class="md-tabs__item">
-      <a href="aio/regulations.md" class="md-tabs__link">
+      <a href="aio/regulations/regulations/" class="md-tabs__link">
         
   
   
@@ -287,24 +287,6 @@
         
       
       
-        <label class="md-nav__link md-nav__link--active" for="__toc">
-          
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Главная
-  
-
-    
-  </span>
-  
-  
-
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
       <a href="." class="md-nav__link md-nav__link--active">
         
   
@@ -321,47 +303,6 @@
   
 
       </a>
-      
-        
-
-<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
-  
-  
-  
-    
-  
-  
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Table of contents
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix="">
-      
-        <li class="md-nav__item">
-  <a href="#_2" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Как склонировать и запустить доку
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#_3" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Примеры важных обозначений
-      
-    </span>
-  </a>
-  
-</li>
-      
-    </ul>
-  
-</nav>
       
     </li>
   
@@ -426,7 +367,7 @@
   
   
     <li class="md-nav__item">
-      <a href="aio/campaign-desc/" class="md-nav__link">
+      <a href="aio/campaigns/campaign-desc/" class="md-nav__link">
         
   
   
@@ -454,7 +395,7 @@
   
   
     <li class="md-nav__item">
-      <a href="aio/how-to-generate-link/" class="md-nav__link">
+      <a href="aio/campaigns/how-to-generate-link/" class="md-nav__link">
         
   
   
@@ -489,7 +430,7 @@
   
   
     <li class="md-nav__item">
-      <a href="aio/regulations.md" class="md-nav__link">
+      <a href="aio/regulations/regulations/" class="md-nav__link">
         
   
   
@@ -529,36 +470,6 @@
     
   
   
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Table of contents
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix="">
-      
-        <li class="md-nav__item">
-  <a href="#_2" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Как склонировать и запустить доку
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#_3" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Примеры важных обозначений
-      
-    </span>
-  </a>
-  
-</li>
-      
-    </ul>
-  
 </nav>
                   </div>
                 </div>
@@ -574,57 +485,9 @@
 
 
 
-<h1 id="_1">Оставь надежду, всяк сюда входящший</h1>
-<h2 id="_2">Как склонировать и запустить доку</h2>
-<ol>
-<li>Склонировать репозиторий</li>
-<li>Установить зависимости</li>
-<li>Запустить локальный сервер</li>
-</ol>
-<div class="language-bash highlight"><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a>git<span class="w"> </span>clone<span class="w"> </span>git@github.com:LDocsSite/Documentation.git<span class="w"> </span>//<span class="w"> </span>Клонируем<span class="w"> </span>репу<span class="w"> </span>к<span class="w"> </span>себе<span class="w"> </span>на<span class="w"> </span>пк
-</span><span id="__span-0-2"><a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a><span class="nb">cd</span><span class="w"> </span>Documentation<span class="w"> </span>//<span class="w"> </span>Переходим<span class="w"> </span>в<span class="w"> </span>папку<span class="w"> </span>с<span class="w"> </span>репозиторием
-</span><span id="__span-0-3"><a id="__codelineno-0-3" name="__codelineno-0-3" href="#__codelineno-0-3"></a>pip3<span class="w"> </span>install<span class="w"> </span>mkdocs-material<span class="w"> </span>//<span class="w"> </span>Установка<span class="w"> </span>самого<span class="w"> </span>MkDocs
-</span><span id="__span-0-4"><a id="__codelineno-0-4" name="__codelineno-0-4" href="#__codelineno-0-4"></a>python3<span class="w"> </span>-m<span class="w"> </span>mkdocs<span class="w"> </span>serve<span class="w"> </span>//<span class="w"> </span>Запуск<span class="w"> </span>локально
-</span><span id="__span-0-5"><a id="__codelineno-0-5" name="__codelineno-0-5" href="#__codelineno-0-5"></a>
-</span><span id="__span-0-6"><a id="__codelineno-0-6" name="__codelineno-0-6" href="#__codelineno-0-6"></a>Процесса<span class="w"> </span>билда<span class="w"> </span>и<span class="w"> </span>пуша<span class="w"> </span>изменений:
-</span><span id="__span-0-7"><a id="__codelineno-0-7" name="__codelineno-0-7" href="#__codelineno-0-7"></a><span class="m">1</span>.<span class="w"> </span>python3<span class="w"> </span>-m<span class="w"> </span>mkdocs<span class="w"> </span>gh-deploy<span class="w"> </span>--force<span class="w"> </span>//Пуш<span class="w"> </span>в<span class="w"> </span>репозиторий<span class="w"> </span>с<span class="w"> </span>автоматическим<span class="w"> </span>билдом
-</span><span id="__span-0-8"><a id="__codelineno-0-8" name="__codelineno-0-8" href="#__codelineno-0-8"></a><span class="m">2</span>.<span class="w"> </span>git<span class="w"> </span>add<span class="w"> </span>.
-</span><span id="__span-0-9"><a id="__codelineno-0-9" name="__codelineno-0-9" href="#__codelineno-0-9"></a><span class="m">3</span>.<span class="w"> </span>git<span class="w"> </span>commit<span class="w"> </span>-am<span class="w"> </span><span class="s2">"сообщение коммита"</span>
-</span><span id="__span-0-10"><a id="__codelineno-0-10" name="__codelineno-0-10" href="#__codelineno-0-10"></a><span class="m">4</span>.<span class="w"> </span>git<span class="w"> </span>push<span class="w"> </span>origin<span class="w"> </span>main
-</span></code></pre></div>
-<h2 id="_3">Примеры важных обозначений</h2>
-<div class="admonition note">
-<p class="admonition-title">Заголовок</p>
-</div>
-<p>Синий. Общая заметка.</p>
-<div class="admonition info">
-<p class="admonition-title">Заголовок</p>
-</div>
-<p>Синий. Информация.</p>
-<div class="admonition tip">
-<p class="admonition-title">Заголовок</p>
-</div>
-<p>Зелёный. Полезный совет.</p>
-<div class="admonition success">
-<p class="admonition-title">Заголовок</p>
-</div>
-<p>Зелёный. Успех / готово.</p>
-<div class="admonition warning">
-<p class="admonition-title">Заголовок</p>
-</div>
-<p>Оранжевый. Предупреждение.</p>
-<div class="admonition danger">
-<p class="admonition-title">Заголовок</p>
-</div>
-<p>Красный. Опасно / критично.</p>
-<div class="admonition example">
-<p class="admonition-title">Заголовок</p>
-</div>
-<p>Фиолетовый. Пример.</p>
-<div class="admonition quote">
-<p class="admonition-title">Заголовок</p>
-</div>
-<p>Серый. Цитата.</p>
+<h1 id="_1">Основные разделы документации</h1>
+<p><a href="aio/campaigns/campaign-desc/">Кампании в aio</a></p>
+<p><a href="aio/regulations/regulations/">Регламенты задач</a></p>
 
 
 
