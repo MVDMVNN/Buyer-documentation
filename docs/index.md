@@ -2,4 +2,4 @@
 
 [Кампании в aio](aio/campaigns/campaign-desc.md)
 
-[Регламенты задач](aio/regulations/regulations.md)
+[Регламенты задач](aio/regulations/regulations-fb.md)
