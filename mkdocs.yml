@@ -44,7 +44,9 @@ nav:
   - Кампании в AIO: 
       - Как попасть в кампанию и что внутри: aio/campaigns/campaign-desc.md
       - Как сгенерировать ссылку для залива: aio/campaigns/how-to-generate-link.md
-  - Регламенты для задач: aio/regulations/regulations-fb.md
+  - Регламенты для задач:
+      - Регламент задачи на сетапы Facebook: aio/regulations/regulations-fb.md
+      - Регламент задачи на сетапы Google: aio/regulations/regulations-google.md
   # - Добавление новой кампании: aio/new-campaign.md
   # - Добавление нового вайта: aio/how-to-add-white.md
   # - AIO (Crypto):
